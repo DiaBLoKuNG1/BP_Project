@@ -19,22 +19,6 @@
 <div id="panel-1" class="content-panel">
     <div id="inner-panel-1" class="container">
         <div class="row">
-            <div class="col-md-6 text-center">
-                <!--<img id="woman-image" src="images/woman.png" alt="">-->
-                <div class="">
-                    <img id="logo" src="images/logo.png">
-                    <div>
-                        <h1 id="header-text">
-                            <span id="promo-text-1"
-                                  class="text-3 border-bottom">เพียง 200 ม. จาก MRT สามย่าน</span><span
-                                id="promo-text-2" class="text-3 border-bottom">ที่จอดรถ 100% ทุกยูนิต</span><br>
-                            <span id="promo-text-3" class="text-3">ตกแต่งพร้อมอยู่ด้วยเฟอร์นิเจอร์หรู</span>
-                            <span id="promo-text-4" class="text-3">พบกับเราเร็วๆนี้</span>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-
             <div id="register-panel" class="col-md-5 no-padding-left no-padding-right">
                 <div id="language-selection">
                     <ul>
@@ -47,20 +31,20 @@
                     </ul>
                 </div>
                 <div id="text-panel" class="text-center">
-                    <div id="line-1" class="text-1 text-size-1">พิเศษ</div>
-                    <div id="line-2" class="text-3 text-size-6">ลงทะเบียนออนไลน์ วันนี้</div>
-                    <div class="text-3 text-size-4 margin-top-p5 margin-bottom-p5">
-                        เพียง 3 ยูนิทสุดท้าย กับคอนโด</br>
-                        ที่ Design for Excellences</br>
-                        โปรโมชั่นปิดโครงการ</br>
-                        <!-- 4 ก.ย.นี้ พบกับ Altitude Define</br> -->
-                        "Design For Excellence"</br>
-                        หนึ่งเดียวกับความเป็นส่วนตัว
-                        <!-- รับข้อเสนอพิเศษ ก่อนเปิด Pre-Sale 4 ก.ย.นี้
-                        <br class="hidden-xs">
-                        Altitude Define "Design For Excellence"<br>
-                        หนึ่งเดียวกับความเป็นส่วนตัว</div> -->
-                    </div>
+                    <!--<div id="line-1" class="text-1 text-size-1">พิเศษ</div>-->
+                    <div id="line-2" class="text-3 text-size-6 margin-top-p5 margin-bottom-p5">ลงทะเบียน</div>
+                    <!--<div class="text-3 text-size-4 margin-top-p5 margin-bottom-p5">-->
+                        <!--เพียง 3 ยูนิทสุดท้าย กับคอนโด</br>-->
+                        <!--ที่ Design for Excellences</br>-->
+                        <!--โปรโมชั่นปิดโครงการ</br>-->
+                        <!--&lt;!&ndash; 4 ก.ย.นี้ พบกับ Altitude Define</br> &ndash;&gt;-->
+                        <!--"Design For Excellence"</br>-->
+                        <!--หนึ่งเดียวกับความเป็นส่วนตัว-->
+                        <!--&lt;!&ndash; รับข้อเสนอพิเศษ ก่อนเปิด Pre-Sale 4 ก.ย.นี้-->
+                        <!--<br class="hidden-xs">-->
+                        <!--Altitude Define "Design For Excellence"<br>-->
+                        <!--หนึ่งเดียวกับความเป็นส่วนตัว</div> &ndash;&gt;-->
+                    <!--</div>-->
                     <form id="register-form">
                         <!-- action="http://altitudecondo.com/define/scripts/php/register.php" method="post">-->
                         <input type="hidden" name="language" value="th">
@@ -77,95 +61,97 @@
                                    placeholder="อีเมล">
                         </div>
 
-                        <label class="control-label" for="">วัตถุประสงค์การซื้อ</label>
+                        <label class="control-label" for="">Event ที่สนใจเข้าร่วม </label>
                         <div class="form-group">
                             <input type="hidden" id="purpose-text" name="purpose_text" value="">
                             <input type="hidden" id="purpose-code" name="purpose_code" value="">
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="purpose" checked value="1"> ซื้ออยู่เอง </label>
+                                    <input type="radio" name="purpose" checked value="1"> ATC </label><span> (รายละเอียด คลิ๊ก)</span>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="purpose" value="2"> ลงทุน </label>
+                                    <input type="radio" name="purpose" value="2"> MTC </label><span> (รายละเอียด คลิ๊ก)</span>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-md-12">
-                                <label class="control-label" for="">งบประมาณในการซื้อ</label>
-                                <input type="hidden" id="budget-text" name="budget" value="">
-                                <input type="hidden" id="budget-value" name="budget_value" value="">
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="budget_id" checked data-value="LT4M" value="1">
-                                            น้อยกว่า 4 ล้านบาท </label>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="budget_id" data-value=" 4-6M" value="2"> 4-6
-                                            ล้านบาท </label>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="budget_id" data-value="6-9M" value="3"> 6-9
-                                            ล้านบาท </label>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label>
-                                            <input type="radio" name="budget_id" data-value="GT9M" value="4"> 9
-                                            ล้านบาทขึ้นไป </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <button type="submit" id="register-btn" class="btn btn-primary btn-block">ลงทะเบียนรับสิทธิ์ >
+                        <button type="submit" id="register-btn" class="btn btn-primary btn-block">ลงทะเบียน
                         </button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="banner-row">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 text-center">
-                    จองสิทธิ์วันนี้รับข้อเสนอพิเศษก่อนใคร
-                </div>
-            </div>
-        </div>
-    </div>
+
+    <!--<div class="banner-row">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-7 text-center">-->
+                    <!--จองสิทธิ์วันนี้รับข้อเสนอพิเศษก่อนใคร-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
-<div id="panel-2" class="content-panel">
+<div class="banner-row">
     <div class="container">
         <div class="row">
             <div class="col-md-7 text-center">
-                <div class="">
-                    <div id="text-board-panel">
-                        "<span class="line-height-3">Altitude<br class="hidden-xs"></span>
-                        เป็นหนึ่งในคอนโดที่ดีที่สุด<br class="hidden-xs"> บนที่ดินที่มูลค่าสูงสุดที่ Low Rise
-                        คอนโดมิเนียมเคยมีมา"
-                        <div id="speaker-text" class="text-right text-2">
-                            <a target="_blank" href="https://www.facebook.com/pingmillionairemaker">Ping Millionaire
-                                Maker</a>
-                        </div>
-                    </div>
-                </div>
-                <a id="phone-text-big" href="tel:062-3636-456">
-                    <img id="text-2-image" src="images/text-5.png">
-                </a>
+                <!--จองสิทธิ์วันนี้รับข้อเสนอพิเศษก่อนใคร-->
             </div>
         </div>
     </div>
 </div>
+
+
+<div id="footer" class="">
+    <div class="col-md-6 text-center">
+        <h2 class="header-text">
+            <span id="promo-text-2" class="text-3">สอบถามรายละเอียดเพิ่มเติม</span>
+        </h2>
+    </div>
+    <div class="col-md-6">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="header-text" >
+                    <span id="promo-text-1" class="text-3"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 0-2018-1615</span>
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="header-text" >
+                    <span id="promo-text-1" class="text-3"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@thac.or.th</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div id="panel-2" class="content-panel">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-7 text-center">-->
+                <!--<div class="">-->
+                    <!--<div id="text-board-panel">-->
+                        <!--"<span class="line-height-3">Altitude<br class="hidden-xs"></span>-->
+                        <!--เป็นหนึ่งในคอนโดที่ดีที่สุด<br class="hidden-xs"> บนที่ดินที่มูลค่าสูงสุดที่ Low Rise-->
+                        <!--คอนโดมิเนียมเคยมีมา"-->
+                        <!--<div id="speaker-text" class="text-right text-2">-->
+                            <!--&lt;!&ndash;<a target="_blank" href="https://www.facebook.com/pingmillionairemaker">&ndash;&gt;-->
+                                <!--&lt;!&ndash;Ping Millionaire&ndash;&gt;-->
+                                <!--&lt;!&ndash;Maker</a>&ndash;&gt;-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<a id="phone-text-big" href="tel:062-3636-456">-->
+                    <!--<img id="text-2-image" src="images/text-5.png">-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 
 <script src="libs/modernizr-2.8.3.min.js"></script>
 

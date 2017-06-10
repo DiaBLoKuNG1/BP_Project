@@ -235,8 +235,13 @@ h1#header-text {
 }
 #panel-1 {
   background: url('../images/bg-pattern.png') repeat top center;
-  padding-bottom: 0;
+  background-image: url('../images/WinWin.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*padding-bottom: 0;*/
   color: #c2b19e;
+  text-align: center;
+  vertical-align: middle;
 }
 #panel-1 #inner-panel-1 {
   position: relative;
@@ -512,7 +517,7 @@ input[type="text"]:-moz-placeholder {
 }
 #language-selection {
   position: absolute;
-  top: 15px;
+  /*top: 15px;*/
   right: 15px;
 }
 #language-selection ul {
@@ -560,6 +565,11 @@ input[type="text"]:-moz-placeholder {
   bottom: 0;
   background: rgba(0, 0, 0, 0.8);
 }
+
+#footer {
+  color: #c2b19e;
+}
+
 /* Small devices */
 @media (min-width: 550px) {
   #more-detail-btn {
@@ -692,6 +702,8 @@ input[type="text"]:-moz-placeholder {
     text-align: right;
   }
 }
+
+
 /* Large devices */
 @media (min-width: 1400px) {
   .content-panel {
