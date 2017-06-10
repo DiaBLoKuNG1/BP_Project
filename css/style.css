@@ -1,0 +1,703 @@
+@font-face {
+  font-family: 'cinzelregular';
+  src: url('../fonts/cinzel/Cinzel-Regular-webfont.eot');
+  src: url('../fonts/cinzel/Cinzel-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/cinzel/Cinzel-Regular-webfont.woff') format('woff'), url('../fonts/cinzel/Cinzel-Regular-webfont.ttf') format('truetype'), url('../fonts/cinzel/Cinzel-Regular-webfont.svg#cinzelregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_blackregular';
+  src: url('../fonts/thaisansneue/thaisansneue-black-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-black-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-black-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-black-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-black-webfont.svg#thaisans_neue_blackregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neuebold';
+  src: url('../fonts/thaisansneue/thaisansneue/thaisansneue-bold-webfont.html');
+  src: url('../fonts/thaisansneue/thaisansneue/thaisansneue-bold-webfontd41d.html?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-bold-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-bold-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-bold-webfont.svg#thaisans_neuebold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_extbdregular';
+  src: url('../fonts/thaisansneue/thaisansneue/thaisansneue-extrabold-webfont.html');
+  src: url('../fonts/thaisansneue/thaisansneue/thaisansneue-extrabold-webfontd41d.html?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-extrabold-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-extrabold-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-extrabold-webfont.svg#thaisans_neue_extbdregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_extltregular';
+  src: url('../fonts/thaisansneue/thaisansneue-extralight-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-extralight-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-extralight-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-extralight-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-extralight-webfont.svg#thaisans_neue_extltregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_lightregular';
+  src: url('../fonts/thaisansneue/thaisansneue-light-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-light-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-light-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-light-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-light-webfont.svg#thaisans_neue_lightregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neueregular';
+  src: url('../fonts/thaisansneue/thaisansneue-regular-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-regular-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-regular-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-regular-webfont.svg#thaisans_neueregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_sembdregular';
+  src: url('../fonts/thaisansneue/thaisansneue-semibold-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-semibold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-semibold-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-semibold-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-semibold-webfont.svg#thaisans_neue_sembdregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_ultbdregular';
+  src: url('../fonts/thaisansneue/thaisansneue-ultrabold-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-ultrabold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-ultrabold-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-ultrabold-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-ultrabold-webfont.svg#thaisans_neue_ultbdregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'thaisans_neue_ultltregular';
+  src: url('../fonts/thaisansneue/thaisansneue-ultralight-webfont.eot');
+  src: url('../fonts/thaisansneue/thaisansneue-ultralight-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/thaisansneue/thaisansneue-ultralight-webfont.woff') format('woff'), url('../fonts/thaisansneue/thaisansneue-ultralight-webfont.ttf') format('truetype'), url('../fonts/thaisansneue/thaisansneue-ultralight-webfont.svg#thaisans_neue_ultltregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #252627;
+  font-family: "thaisans_neueregular";
+  line-height: 1;
+  line-height: 1.4;
+  font-size: 15px;
+  color: #0e0d0d;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.no-padding-left {
+  padding-left: 0;
+}
+.no-padding-right {
+  padding-right: 0;
+}
+.text-1 {
+  font-family: "thaisans_neue_blackregular";
+}
+.text-2 {
+  font-family: "thaisans_neuebold";
+}
+.text-3 {
+  font-family: "thaisans_neueregular";
+}
+.text-4 {
+  font-family: "thaisans_neue_extbdregular";
+}
+.text-5 {
+  font-family: "thaisans_neue_extbdregular";
+}
+.text-6 {
+  font-family: "cinzelregular";
+}
+.text-size-1 {
+  font-size: 32px;
+}
+.text-size-2 {
+  font-size: 18px;
+}
+.text-size-3 {
+  font-size: 25px;
+}
+.text-size-4 {
+  font-size: 20px;
+}
+.text-size-5 {
+  font-size: 25px;
+}
+.text-size-6 {
+  font-size: 30px;
+}
+.text-size-7 {
+  font-size: 42px;
+}
+.text-red-1 {
+  color: #d3330a;
+}
+.text-white {
+  color: #fff;
+}
+.text-gold-1 {
+  color: #915850;
+}
+.text-brown-1 {
+  color: #761f0a;
+}
+.line-height-1 {
+  line-height: 1;
+}
+.line-height-2 {
+  line-height: 1.4;
+}
+.line-height-3 {
+  line-height: 1.7;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.form-group + .form-group {
+  margin-top: 0;
+}
+.margin-top-p5 {
+  margin-top: 5px;
+}
+.margin-top-p20 {
+  margin-top: 20px;
+}
+.margin-top-m20-force {
+  margin-top: -20px !important;
+}
+.margin-bottom-p5 {
+  margin-bottom: 5px;
+}
+.no-margin {
+  margin: 0;
+}
+.no-margin-force {
+  margin: 0 !important;
+}
+.content-panel {
+  min-height: 200px;
+  background-size: auto 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.btn.btn-primary {
+  background: #6e4b45;
+  border-color: #6e4b45;
+  border-radius: 0;
+  font-size: 25px;
+}
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-primary:active {
+  background: #6e4b45;
+  border-color: #6e4b45;
+  outline: none;
+  box-shadow: none;
+}
+#text-0-image {
+  display: block;
+  margin: 20px auto 0px;
+}
+#logo {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+h1#header-text {
+  margin-top: 20px;
+}
+.border-bottom {
+  border-bottom: 1px solid;
+}
+#promo-text-1 {
+  font-size: 20px;
+  margin-top: 11px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+#promo-text-2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin: 5px 0;
+}
+#promo-text-3 {
+  font-size: 20px;
+  line-height: 1.4;
+  display: block;
+  margin-top: 10px;
+}
+#promo-text-4 {
+  font-size: 24px;
+  line-height: 1.4;
+  display: block;
+  margin-top: 10px;
+}
+#panel-1 {
+  background: url('../images/bg-pattern.png') repeat top center;
+  padding-bottom: 0;
+  color: #c2b19e;
+}
+#panel-1 #inner-panel-1 {
+  position: relative;
+  margin-bottom: 40px;
+}
+#panel-1 #woman-image {
+  display: none;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  margin-right: -210px;
+  max-height: 120%;
+}
+#panel-2 {
+  background: url('../images/bg-pattern.png') repeat top center;
+}
+#panel-3 {
+  background-image: url('../images/bg-6.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto 100%;
+  min-height: 200px;
+  background-color: #999999;
+  position: relative;
+}
+#panel-3 .image-wrapper {
+  position: relative;
+  min-height: 100px;
+  text-align: center;
+}
+#panel-3 .image-wrapper #image-text {
+  max-width: 100%;
+  width: 350px;
+  margin: 50px auto 0;
+}
+#back-btn {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: "thaisans_neuebold";
+}
+#register-panel {
+  position: static;
+  background: rgba(56, 42, 31, 0.9);
+  padding: 15px;
+  margin: 35px 15px 0;
+  color: #fff;
+  font-size: 18px;
+}
+#register-panel #text-panel {
+  margin-bottom: 20px;
+}
+#register-panel #text-panel #line-1 {
+  color: #c1af9f;
+}
+#register-panel #text-panel #line-2 {
+  font-size: 24px;
+}
+#register-panel #register-btn {
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 1;
+  font-family: "thaisans_neueregular";
+  background: none;
+  border: 3px solid #c2b19e;
+}
+#text-board-panel {
+  color: #c2b19e;
+  border: 3px solid #c2b19e;
+  padding: 20px 8px;
+  font-size: 24px;
+  margin: auto;
+  max-width: 450px;
+}
+#text-board-panel #speaker-text {
+  margin-top: 30px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-family: "cinzelregular";
+}
+#text-board-panel #speaker-text a {
+  color: #c2b19e;
+}
+#footer-panel {
+  padding: 20px 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  background: url('../images/border-gold.png') repeat-x top center;
+}
+#footer-panel .footer-text {
+  margin: 10px 0 20px;
+  font-size: 11px;
+}
+a {
+  cursor: pointer;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+.control-label {
+  font-family: "thaisans_neuebold";
+  font-weight: normal;
+  color: #fff;
+}
+.checkbox.error > label,
+.radio.error > label {
+  color: #f00;
+}
+.checkbox > label,
+.radio > label {
+  padding-left: 25px;
+}
+.checkbox > label > input,
+.radio > label > input {
+  margin-left: -25px !important;
+}
+#en #header-text {
+  color: #caa289;
+}
+#en #header-text #promo-text-1 {
+  font-size: 46px;
+}
+#en #header-text #promo-text-2 {
+  margin-top: 0;
+  font-size: 46px;
+}
+#en #header-text #promo-text-3 {
+  font-size: 41px;
+  padding-bottom: 0;
+  margin-top: 0;
+  display: inline-block;
+}
+#en #header-text #promo-text-4 {
+  border: 1px solid;
+  display: inline-block;
+  width: 300px;
+  padding: 5px 15px;
+  font-size: 28px;
+}
+.no-border {
+  border: none;
+}
+.modal-dialog {
+  overflow: hidden;
+}
+.modal-dialog .modal-content {
+  background: #252627;
+}
+.modal-dialog .modal-content .close {
+  color: #fff;
+  text-shadown: none;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+input[type="email"],
+input[type="text"] {
+  background: rgba(193, 175, 159, 0.5);
+  border-radius: 0;
+  border: 1px solid rgba(193, 175, 159, 0.5);
+  height: auto;
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #fff;
+}
+input[type="email"]:focus,
+input[type="text"]:focus {
+  border-color: #761f0a;
+}
+input[type="email"].error,
+input[type="text"].error {
+  border-color: #f00;
+}
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+
+  color: #fff;
+}
+input[type="email"]::-moz-placeholder,
+input[type="text"]::-moz-placeholder {
+  /* Firefox 19+ */
+
+  color: #fff;
+}
+input[type="email"]:-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder {
+  /* IE 10+ */
+
+  color: #fff;
+}
+input[type="email"]:-moz-placeholder,
+input[type="text"]:-moz-placeholder {
+  /* Firefox 18- */
+
+  color: #fff;
+}
+#more-info-link {
+  color: #0e0d0d;
+}
+#phone-text-big {
+  display: block;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+#phone-text {
+  color: #fff;
+}
+#phone-text:hover {
+  text-decoration: none;
+}
+.banner-row {
+  padding: 10px;
+  background: rgba(192, 171, 149, 0.8);
+  color: #fff;
+  font-family: "thaisans_neueregular";
+  font-size: 22px;
+}
+.banner-row a {
+  color: #fff;
+}
+.banner-row a:hover {
+  text-decoration: none;
+}
+#pr-dialog .modal-dialog {
+  max-width: 400px;
+}
+#pr-dialog .modal-content {
+  background: none;
+  padding: 30px 20px 40px;
+  box-shadow: none;
+  border: none;
+}
+#pr-dialog .modal-content .modal-body {
+  background-color: #252627;
+  background-image: url('../images/bg-2.png');
+  background-repeat: no-repeat;
+  background-position: 35% center;
+  border: 2px solid #fff;
+}
+#pr-dialog .modal-content .modal-body .close {
+  background: #aaa;
+  opacity: 1;
+  border-radius: 50%;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  font-size: 16px;
+  line-height: 1;
+}
+#pr-dialog .modal-content .modal-body .close > span {
+  height: auto;
+  margin-top: -2px;
+  display: block;
+}
+#pr-dialog #register-btn-panel {
+  margin-top: 10px;
+  text-align: center;
+}
+#pr-dialog #register-btn-panel #go-register-btn {
+  margin-bottom: -50px;
+  font-size: 18px;
+}
+#language-selection {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#language-selection ul {
+  list-style: none;
+}
+#language-selection ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  color: #c2b19e;
+  font-size: 16px;
+}
+#language-selection ul > li + li:before {
+  content: '|';
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+}
+#language-selection ul > li > a {
+  color: #c2b19e;
+}
+#thank-you-page #logo {
+  margin-top: 30px;
+}
+#thank-you-page #panel-1 {
+  background: url('../images/bg-pattern.png') repeat top center;
+}
+#thank-you-page #inner-panel-1 {
+  margin-bottom: 0;
+}
+#more-detail-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 30px;
+  padding: 13px 30px 18px;
+  font-family: "thaisans_neueregular";
+  font-size: 20px;
+  line-height: 1;
+  display: inline-block;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* Small devices */
+@media (min-width: 550px) {
+  #more-detail-btn {
+    font-size: 30px;
+  }
+  #logo {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    max-width: 280px;
+  }
+  #register-panel #register-btn {
+    font-size: 24px;
+  }
+  #text-board-panel {
+    margin-top: 30px;
+    padding: 20px 10px;
+    font-size: 28px;
+  }
+  #text-board-panel #speaker-text {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  #text-0-image {
+    margin: 25px auto 0;
+  }
+  #promo-text-1 {
+    font-size: 30px;
+  }
+  #promo-text-2 {
+    font-size: 42px;
+  }
+  #promo-text-4,
+  #promo-text-3 {
+    font-size: 34px;
+  }
+  #panel-3 {
+    min-height: 450px;
+  }
+  #panel-3 .image-wrapper {
+    position: relative;
+    min-height: 190px;
+  }
+  #panel-3 .image-wrapper #image-text {
+    position: static;
+    display: block;
+  }
+  #back-btn {
+    min-width: 360px;
+  }
+}
+/* Medium devices */
+@media (min-width: 992px) {
+  h1#header-text {
+    margin-top: 20px;
+  }
+  .content-panel {
+    background-size: auto 100%;
+  }
+  #promo-text-1 {
+    font-size: 30px;
+  }
+  #promo-text-2 {
+    font-size: 42px;
+    margin: 20px 0 10px;
+  }
+  #promo-text-3 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  #promo-text-4 {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  #panel-2,
+  #panel-1 {
+    min-height: 488px;
+  }
+  #panel-2 #woman-image,
+  #panel-1 #woman-image {
+    display: block;
+  }
+  #panel-2 .image-wrapper,
+  #panel-1 .image-wrapper {
+    position: relative;
+    min-height: 430px;
+  }
+  #panel-2 .image-wrapper > img,
+  #panel-1 .image-wrapper > img {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  #panel-2 {
+    min-height: 400px;
+  }
+  #panel-3 {
+    height: 400px;
+    overflow: hidden;
+  }
+  #panel-3 .mask {
+    display: none;
+  }
+  #panel-3 .image-wrapper {
+    position: relative;
+    text-align: left;
+  }
+  #panel-3 .image-wrapper #image-text {
+    position: static;
+    display: block;
+    margin-left: 0;
+  }
+  #panel-3 .image-wrapper #more-detail-btn {
+    margin-left: 4px;
+  }
+  #register-panel {
+    position: absolute;
+    right: 0;
+    margin: 0;
+  }
+  #footer-panel {
+    text-align: left;
+  }
+  #footer-panel .footer-text {
+    margin-bottom: 30px;
+  }
+  #footer-panel .right-footer-col {
+    text-align: right;
+  }
+}
+/* Large devices */
+@media (min-width: 1400px) {
+  .content-panel {
+    background-size: 100% auto;
+  }
+}
+@media (min-width: 1620px) {
+  
+}
