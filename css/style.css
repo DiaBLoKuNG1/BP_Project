@@ -205,10 +205,16 @@ img {
 }
 h1#header-text {
   margin-top: 20px;
+  color: #c2b19e;
 }
 .border-bottom {
   border-bottom: 1px solid;
 }
+
+.border-top {
+  border-top: 1px solid;
+}
+
 #promo-text-1 {
   font-size: 20px;
   margin-top: 11px;
@@ -630,6 +636,7 @@ input[type="text"]:-moz-placeholder {
   }
   #promo-text-1 {
     font-size: 30px;
+    margin: 20px 0 10px;
   }
   #promo-text-2 {
     font-size: 42px;
@@ -642,6 +649,10 @@ input[type="text"]:-moz-placeholder {
   #promo-text-4 {
     font-size: 36px;
     margin-top: 30px;
+  }
+  #promo-text-5 {
+    font-size: 26px;
+    margin-top: 0;
   }
   #panel-2,
   #panel-1 {
@@ -690,7 +701,7 @@ input[type="text"]:-moz-placeholder {
   #register-panel {
     position: absolute;
     right: 0;
-    margin: 0;
+    margin: 35px 15px 15px 0;
   }
   #footer-panel {
     text-align: left;
